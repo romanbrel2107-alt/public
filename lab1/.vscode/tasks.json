@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Сборка astro.exe",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-std=c++17", "-g", "src/main.cpp", "-o", "build/astro.exe"],
+            "options": { "cwd": "${workspaceFolder}" },
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
