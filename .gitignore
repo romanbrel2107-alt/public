@@ -1,0 +1,38 @@
+# Каталоги сборки
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+
+# Исполняемые, объектные и отладочные файлы
+*.exe
+*.o
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.a
+*.dll
+
+# Файлы CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Пользовательские настройки VS Code (общие tasks.json и launch.json храним)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+.history/
+
+# Временные файлы Microsoft Office
+~$*
+
+# Системные файлы
+Thumbs.db
+desktop.ini
+.DS_Store
